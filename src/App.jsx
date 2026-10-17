@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-const API_BASE_URL = (import.meta.env.VITE_API_URL || '').replace(/\/+$/, '');
+const API_BASE_URL = "https://react-weather-server-9z5t.onrender.com";
 
 function Icon({ name, size = 20 }) {
   const common = { width: size, height: size, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.7, strokeLinecap: 'round', strokeLinejoin: 'round', 'aria-hidden': true };
